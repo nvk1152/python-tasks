@@ -1,7 +1,7 @@
 # Guessing Game
 
 lucky_number = 9
-response = input("Do you want to guess the number(y/n):")
+response = input("Do you want to guess the number(y/n):").lower()
 while response != "n":
     number = input("Guess the number:")
     user_number = int(number)
