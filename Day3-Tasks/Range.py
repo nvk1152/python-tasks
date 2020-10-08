@@ -2,4 +2,5 @@
 i = 1
 # Rage starts from 1 ends at 33
 for i in range(1,34): 
-    print(i * 3, end = ', ')
+    if i % 3 == 0:
+        print(i, end = ' ')
