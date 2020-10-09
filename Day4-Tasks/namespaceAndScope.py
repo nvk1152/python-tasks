@@ -18,10 +18,12 @@ def scope_test():
     spam = "test spam"
     do_local()
     print("After local assignment:", spam)
-    do_nonlocal()
-    print("After nonlocal assignment:", spam)
+    
     do_global()
     print("After global assignment:", spam)
+
+    do_nonlocal()
+    print("After nonlocal assignment:", spam)
 
 scope_test()
 print("In global scope:", spam)

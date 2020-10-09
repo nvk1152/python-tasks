@@ -7,8 +7,7 @@ user = {"username" : "vamsi", "password" : "qwerty", "balance" : 25385.56}
 
 # Called upon showBalance function
 # Validates username and password
-def validation(func):
-    
+def validation(func):  
     # Wraps function
     @functools.wraps(func)
     def authentication(*args, **kwargs):
