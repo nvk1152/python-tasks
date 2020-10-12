@@ -12,3 +12,5 @@ def factorial(num : int) -> int :
 
 number = int(input("Enter a number: "))
 print(factorial(number))
+
+# 5 * factorial(4)

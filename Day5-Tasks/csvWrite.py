@@ -1,6 +1,6 @@
 import csv
 
-with open('details.csv.','w+') as participants:
+with open('details.csv.','w') as participants:
     writer = csv.writer(participants, delimiter=':')
     writer.writerow(['Name', 'Experinence'])
     writer.writerow(['Vamsi Kishan', '20 years'])
